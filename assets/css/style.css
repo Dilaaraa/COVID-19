@@ -1,0 +1,564 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container .navbar {
+    width: 100%;
+    height: 80px;
+}
+.navbar .cov-19 {
+    display: inline-block;
+}
+.navbar img {
+    margin-right: 40px;
+    margin-bottom: 10px;
+    height:23px;
+    width: 85px;
+}
+.navbar ul {
+    float: right;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+.navbar .cov-19 a {
+    text-decoration: none;
+}
+.navbar ul li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 8px;
+    line-height: 45px;
+}
+.navbar ul li a {
+    color: #294e7d;
+    text-decoration: none;
+    font-family: "Poppins" , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 13px;
+}
+.navbar button {
+    display: inline-block;
+    color: #ffffff;
+    background-color:  #fea71a;
+    border: #fea71a;
+    border-radius: 30px;  
+    padding: 0px 50px;
+    height: 55px;
+}
+/* .container {
+    display: flex;
+}
+.topnav {
+    background-color: #ffffff;
+    height: 80px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    border: 0;
+    position: fixed;
+    flex-direction: column;
+ 
+}
+.topnav .logo img {
+    margin-top: 30px;
+    height: 20px;
+    width: 80px;     
+}
+.topnav ul {
+    display: flex;
+    color: #294e7d;
+    margin: 0px 10px;
+    padding: 0px;
+}
+.topnav ul li {
+    margin: 18px;
+    list-style: none;
+}
+.topnav a {
+    text-decoration: none;
+}
+.topnav .btn{
+    float: right;
+    line-height: 20px;
+    background-color: #fea71a;
+    color: #ffffff;
+    padding: 10px 13px;
+    border-radius: 50px;
+} */
+
+
+.banner {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}
+.banner .entry {
+    padding-top: 150px;
+}
+.banner img {
+    height: 700px;
+    width: 900px;
+}
+.banner .banner-button .btn-1{
+    display: inline-block;
+    height: 60px;
+    padding: 0px 70px;
+    border: #fea71a;
+    border-radius: 35px;
+    color: #ffffff;
+    background-color: #fea71a;
+}
+.banner .banner-button .btn-2{
+    display: inline-block;
+    height: 60px;
+    padding: 0px 70px;
+    margin-left: 30px;
+    border-radius: 35px;
+    color: #294e7d;
+    background-color: #ffffff; 
+    border: 2px solid #fea71a;  
+}
+.banner p {
+    color: #8a8eaa;
+    font-weight: 100;
+    margin-bottom: 33px;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif;
+}
+.banner .title-1 {
+    padding-bottom: 10px;
+    color: #294e7d;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Rubik", sans-serif;
+}
+.banner .title-2 {
+    font-size: 56px;
+    color: #706ad4;
+    font-weight: 850;
+    line-height: 66px;
+    margin-bottom: 15px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+.about {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+}
+.about img {
+    margin-left: auto;
+    height: 518px;
+    width: 536px;
+}
+.about .text {
+    padding-top: 150px;
+}
+.about p {
+    font-family:'Poppins' sans-serif;
+    color: #8a8eaa;
+    font-size: 18px;
+    font-weight: 420;
+    line-height: 35px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.about h2 {
+    font-family: "Rubik" sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #35404e;
+}
+.about .btn {
+    display: inline-block;
+    color: #ffffff;
+    background-color:  #fea71a;
+    border: #fea71a;
+    border-radius: 35px;  
+    padding: 0px 70px;
+    height: 65px; 
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.symptom {
+    display: flex;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+.symptom img {
+    padding-bottom: 20px;
+    padding-right: 40px;
+    height: 550px;
+    width: 630px;
+}
+.symptom h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #35404e;
+}
+.symptom p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #8a8eaa;
+    font-size: 18px;
+    font-weight: 420;
+    line-height: 30px; 
+}
+.symptom li {
+    text-align: left;
+    color: #8a8eaa;
+    font-size: 20px;
+    list-style: none;
+}
+.symptom li i {
+    color: #40cd79;
+}
+.symptom .btn {
+    color: #ffffff;
+    background-color: #fea71a;
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 0px 60px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.preventions {
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    padding-right: 20px;
+}
+.preventions .text h2 {
+    display: flex;
+    font-family: "Rubik" sans-serif;
+    color: #35404e;
+    font-weight: 700;
+    justify-content: center;
+}
+.preventions .text p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #35404e;
+}
+.preventions .card h5 { 
+    font-family: "Rubik" sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #343a40;
+    text-decoration: none;
+    text-align: center;
+}
+.preventions .card a {
+    color: #343a40;
+    text-decoration: none;
+}
+.preventions .card p {
+    padding-top: 10px;
+    line-height: 30px;
+    color: #8a8eaa;
+    font-size: 17px;
+    font-weight: 410;
+    text-align: center;
+}
+.preventions .card img {
+    padding-bottom: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+    width: 100px;
+
+}
+.container {
+    flex-direction: column;
+}
+.preventions .card {
+    margin: 35px;
+    border:#ffffff;
+    padding-top: 50px;
+}
+
+.transmission {
+    padding-bottom: 100px;
+}
+.transmission .title {
+    padding-bottom: 10px;
+}
+.transmission .title h2 {
+    color: #35404e;
+    font-size: 33px;
+    font-weight: 800;
+}
+.transmission .title p {
+    line-height: 30px;
+    color: #35404e;
+    font-size: 20px;
+}
+.transmission .left img {
+    height: 600px;
+    width: 500px;
+}
+.transmission img {
+    height: 90px;
+    width: 100px;
+}
+.transmission .card-content h5 {
+    color: #35404e;
+    font-size: 23px;
+    font-weight: 700;
+}
+.transmission .card-content p {
+    color: #8a8eaa;
+    font-size: 20px;
+}
+.transmission .card-content {
+    margin-bottom: 20px;
+}
+.transmission .card {
+    display: flex;
+    background-color: rgb(244, 244, 248);
+    border: white;
+    margin: 20px;
+    height: 200px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+
+
+
+/* .transmission .cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+}
+/* .transmission .card {
+    background-color: rgb(244, 244, 248);
+    border: white;
+    border-radius: 10px;
+    padding: 0 30px;
+    margin: 20px;
+    height: 190px;
+    width: 550px;
+    overflow: hidden;
+    box-shadow: 20px 20px 20px 40px rgba(0, 0, 0, 0.);
+} */
+
+.faq {
+    padding-top: 100px;
+}
+.faq .container{
+    font-family: "Rubik" sans-serif;
+}
+.faq .title-text {
+    font-size: 15px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #35404e;
+}
+.faq .title-top {
+    background-color: #e8e7fe;
+    border-radius: 30px;
+    padding: 2px 15px;
+    font-size: 5px;
+    color: #706ad4;
+}
+.faq h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+.faq .title-text p {
+    font-size: 18px;
+}
+.faq .row i {
+    color: #fea71a;
+}
+.questions {
+    padding-left: 30px;
+}
+.questions h5 {
+    font-family: "Rubik" sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.questions p {
+    padding-top: 10px;
+    color: #8a8eaa;
+    font-family: "Poppins" sans-serif;
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 480;
+}
+.title {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.title h5 {
+    font-family: "Poppins" sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+.title p {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #35404e;
+    font-size: 18px;
+    line-height: 30px;
+}
+.title button {
+    color: #ffffff;
+    background-color: #fea71a;
+    border: #fea71a;
+    padding: 0px 60px ;
+    border-radius: 30px;
+    margin-right: auto;
+    height: 60px;
+    font-size: 20px;
+}
+
+
+.help {
+    background-color: #fea71a;
+    background-image: url(/assets/images/cta.png);
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.help h3 {
+    font-family: "Rubik" sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 55px;
+    color: #ffffff;
+}
+.help p {
+    font-family: "Poppins" sans-serif;
+    font-weight: 490;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.help button {
+    background-color: #ffffff;
+    border: #fea71a;
+    border-radius: 35px;
+    padding: 0px 60px;
+    margin-top: 50px;
+    margin-left: 225px;
+    line-height: 60px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #294e7d;
+}
+
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 250px;
+}
+.info img {
+    height: 35px;
+    width: 135px;
+}
+.info p {
+    padding-top: 20px;
+    color: #8a8eaa;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 470;
+}
+.info a {
+    text-decoration: none;
+    color: #8a8eaa;
+    font-size: 18px;
+}
+.prevention h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.prevention a {
+    color: #8a8eaa;
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
+}
+.prevention ul {
+    list-style: none;
+    padding: 0px;
+}
+.prevention li {
+    padding-top: 10px;
+}
+.protection h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.protection a {
+    color: #8a8eaa;
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
+}
+.protection ul {
+    list-style: none;
+    padding: 0px;
+}
+.protection li {
+    padding-top: 10px;
+}
+.contact h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.contact h2 {
+    padding-top: 8px;
+    color: #fea71a;
+    font-size: 25px;
+    font-weight: 800;
+}
+.contact a {
+    color: #8a8eaa;
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
+}
+.contact ul {
+    line-height: 35px;
+    list-style: none;
+    padding: 0px;
+}
+.contact li {
+    padding-top: 10px;
+}
+.contact li a {
+    color: #565972;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact li a small {
+    color: #8a8eaa;
+}
+.contact a i {
+    padding-right: 15px;
+}
